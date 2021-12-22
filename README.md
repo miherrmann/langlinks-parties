@@ -1,17 +1,14 @@
-# Wikipedia language links of political parties
-
-#### Michael Herrmann
-
+# Wikipedia language links
 
 ---
-
-### Description
 
 Get all language links (i.e. article URL in different language editions of Wikipedia) for political parties that have an article in the English Wikipedia. 
 URLs for English Wikipedia articles are obtained from [Party Facts](https://partyfacts.herokuapp.com)
 
 
-### How to use
+## How to use
+
+---
 
 [run-ll-parties.sh](run-ll-parties.sh) 
 
@@ -20,7 +17,9 @@ URLs for English Wikipedia articles are obtained from [Party Facts](https://part
 + downloads langlinks only if no file: __02-wp-dl/ll-parties-raw-\<current date\>.zip__
 
 
-### Folders
+## Folders
+
+---
 
 + __01-partyfacts__ -- Party Facts data
 + __02-wp-dl__ -- downloaded json files
