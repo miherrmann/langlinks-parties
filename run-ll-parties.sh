@@ -1,3 +1,5 @@
+#!/bin/bash
+
 N_PARLL=10   # parallel downloads (too many: Error 429)
 N_LINKS=500  # max number of langlinks per article (max: 500)
 
