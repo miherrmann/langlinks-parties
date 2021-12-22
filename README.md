@@ -1,14 +1,10 @@
 # Wikipedia language links
 
----
-
 Get all language links (i.e. article URL in different language editions of Wikipedia) for political parties that have an article in the English Wikipedia. 
 URLs for English Wikipedia articles are obtained from [Party Facts](https://partyfacts.herokuapp.com)
 
 
 ## How to use
-
----
 
 [run-ll-parties.sh](run-ll-parties.sh) 
 
@@ -18,8 +14,6 @@ URLs for English Wikipedia articles are obtained from [Party Facts](https://part
 
 
 ## Folders
-
----
 
 + __01-partyfacts__ -- Party Facts data
 + __02-wp-dl__ -- downloaded json files
