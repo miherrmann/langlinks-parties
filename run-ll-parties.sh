@@ -3,7 +3,7 @@
 N_PARLL=10   # parallel downloads (too many: Error 429)
 N_LINKS=500  # max number of langlinks per article (max: 500)
 
-PROJ_DIR="langlinks/parties"
+PROJ_DIR="langlinks-parties"
 API="https://en.wikipedia.org/w/api.php"
 API_DAT="?action=query&format=json&prop=langlinks&llprop=url&lllimit="
 API_DAT_LAST="&titles="
